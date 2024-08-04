@@ -13,7 +13,7 @@ public class PojoSampleObject {
     this.message = "PojoSampleObject.init() method called";
   }
 
-  public void close() {
+  public void shutdown() {
     this.message = "PojoSampleObject.close() method called";
   }
 
